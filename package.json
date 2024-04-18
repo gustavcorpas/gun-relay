@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "setup": "bun src/setup/pre.ts && bun src/setup/setup.ts",
+    "start": "bun index.ts",
+    "dev": "bun index.ts dev"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "gun-plus": "^1.0.0",
+    "inquirer": "^9.2.19",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/inquirer": "^9.0.7"
+  }
+}
